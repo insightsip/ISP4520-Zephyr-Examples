@@ -20,12 +20,12 @@ cd my-workspace
 west update
 ```
 
-To be able to connect to your network modify in the main.c file the following keys:
+For the class_a example, to be able to connect to your network modify in the class_a/main.c file the following keys:
 - LORAWAN_DEV_EUI
 - LORAWAN_JOIN_EUI
 - LORAWAN_APP_KEY
 
-Build the example, for example the class_a:
+Build the application, for the class_a:
 
 ```shell
 cd class_a
